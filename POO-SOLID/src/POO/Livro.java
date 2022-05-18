@@ -7,12 +7,12 @@ public class Livro {
 	double price;
 	Autor autor;
 	
-	void detalhes() {
+	public void detalhes() {
 		System.out.println("Detalhes do livro");
 		System.out.println("Nome: " + name);
 		System.out.println("Descrição: " + description);
 		System.out.println("Preço: " + price);
-		//autor.detalhes();
+		autor.detalhesAutor();
 		System.out.println("___");
 		
 		

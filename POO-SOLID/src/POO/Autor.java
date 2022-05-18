@@ -4,8 +4,9 @@ public class Autor {
 	
 	String name;
 	String email;
-
-	void detalhes() {
+	
+	
+	public void detalhesAutor() {
 		System.out.println("Sobre o Autor");
 		System.out.println("Nome: " + name);
 		System.out.println("Email: " + email);

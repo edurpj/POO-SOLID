@@ -1,0 +1,28 @@
+package POO;
+
+public class Autor {
+	
+	String name;
+	String email;
+	
+	Autor autor1 = new Autor();
+	autor1.name = "Eduardo";
+	autor1.email = "edurpj2@gmail.com";
+	livro.autor = autor1;
+	
+	autor1.detalhesAutor();
+	
+	Autor outroAutor = new Autor();
+	outroAutor.name = "Junior";
+	outroAutor.email = "teste@gmail.com";
+	outrolivro.autor = outroAutor;
+	
+	outroAutor.detalhesAutor();
+	
+	void detalhesAutor() {
+		System.out.println("Sobre o Autor");
+		System.out.println("Nome: " + name);
+		System.out.println("Email: " + email);
+		System.out.println("---------------------------------");
+	}
+}
