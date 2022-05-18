@@ -1,0 +1,13 @@
+package POO;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		
+		Livro livro = new Livro();
+		livro.name = "Teste";
+		livro.description = "Testando 123";
+		livro.price = 30;
+	}
+
+}

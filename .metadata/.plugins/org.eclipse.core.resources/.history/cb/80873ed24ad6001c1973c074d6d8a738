@@ -1,0 +1,22 @@
+package POO;
+
+public class Livro {
+	
+	String name;
+	String description;
+	double price;
+	Autor autor;
+	
+	void detalhes() {
+		String mensagem = "Detalhes do livro";
+		System.out.println("Nome: " + name);
+		System.out.println("Descrição: " + description);
+		System.out.println("Preço: " + price);
+		System.out.println("___");
+		
+		System.out.println("Sobre o Autor");
+		System.out.println("Nome: " + autor.name);
+		System.out.println("Email: " + autor.email);
+		System.out.println("---------------------------------");
+	}
+}

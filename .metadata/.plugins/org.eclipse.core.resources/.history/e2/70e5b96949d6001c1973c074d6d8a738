@@ -1,0 +1,27 @@
+package POO;
+
+public class SistemaCadastro {
+
+	public static void main(String[] args) {
+		
+		Livro livro = new Livro();
+		livro.name = "Teste 3";
+		livro.description = "Testando 123";
+		livro.price = 40;
+		
+		livro.detalhes();
+		
+		Livro outrolivro = new Livro();
+		outrolivro.name = "Harry Potter";
+		outrolivro.description = "Magia";
+		outrolivro.price = 100;
+		
+		outrolivro.detalhes();
+		
+		Autor autor = new Autor();
+		autor.name = "Eduardo";
+		autor.email = "edurpj2@gmail.com";
+		livro.autor = autor;
+	}
+
+}
